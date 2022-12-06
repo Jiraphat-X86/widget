@@ -1,77 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Gauge</title>
-    <meta name="viewport" contact="wide=edvice-wide, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>How To Create jQuery Animated Progress Bar With Percentage Counter</title>
     <meta charset="utf-8">
-    <!-- <link rel="shortcut icon" href="/assets/favicon.io"> -->
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div class="gauge">
-      <div class="gauge__body">
-        <div class="gauge__fill"></div>
-        <div class="gauge__cover"></div>
-      </div>
-    </div>   
-    <div id="vertical-center">
-      <div id="clock-container">
-        <div id="display-1" class="display-container display-size-12 display-no-0">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="work-process">
+        <div class="project">
+            <h3>HTML</h3>
+            <div class="project-bar">
+                <div class="project-percent" percent="95"></div>
+                <div class="project-percent" percent="50"></div>
+            </div>
         </div>
-        <div id="display-2" class="display-container display-size-12 display-no-1">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
-        </div>
-        <div id="display-3" class="display-container display-size-12 display-no-2">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
-        </div>
-        <div id="display-4" class="display-container display-size-12 display-no-3">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
-        </div>
-        <div id="display-5" class="display-container display-size-12 display-no-4">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
-        </div>
-        <div id="display-6" class="display-container display-size-12 display-no-5">
-          <div class="segment-x segment-a"><span class="segment-border"></span></div>
-          <div class="segment-y segment-b"><span class="segment-border"></span></div>
-          <div class="segment-y segment-c"><span class="segment-border"></span></div>
-          <div class="segment-x segment-d"><span class="segment-border"></span></div>
-          <div class="segment-y segment-e"><span class="segment-border"></span></div>
-          <div class="segment-y segment-f"><span class="segment-border"></span></div>
-          <div class="segment-x segment-g"><span class="segment-border"></span></div>
-        </div>
-      </div>
-    </div>       
-  </body>
-  <script src="./script.js"></script>
+        <br/>
+        <!-- <div class="container"> -->
+            <!-- <ul id="loadbar">
+                <li><div id="layerFill1" class="bar"></div></li>
+                <li><div id="layerFill2" class="bar"></div></li>
+                <li><div id="layerFill3" class="bar"></div></li>
+                <li><div id="layerFill4" class="bar"></div></li>
+                <li><div id="layerFill5" class="bar"></div></li>
+                <li><div id="layerFill6" class="bar"></div></li>
+                <li><div id="layerFill7" class="bar"></div></li>
+                <li><div id="layerFill8" class="bar"></div></li>
+                <li><div id="layerFill9" class="bar"></div></li>
+                <li><div id="layerFill10" class="bar"></div></li>
+            </ul> -->
+        <!-- </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
+
+  
